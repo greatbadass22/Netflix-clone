@@ -20,7 +20,6 @@ Jumbotron.propTypes = {
 Jumbotron.Container = function JumbotronContainer({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
-
 Jumbotron.Container.propTypes = {
   children: PropTypes.node  
 }
@@ -28,7 +27,6 @@ Jumbotron.Container.propTypes = {
 Jumbotron.Pane = function JumbotronPane({ children, ...restProps }) {
   return <Pane {...restProps}>{children}</Pane>;
 }
-
 Jumbotron.Pane.propTypes = {
   children: PropTypes.node  
 }
